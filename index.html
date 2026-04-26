@@ -954,10 +954,24 @@
           </a>
         </div>
       </div>
-      <div class="project-visual pv-sehat">
-        <div class="pv-icon">🏥</div>
-        <div class="pv-label">sehat · live</div>
+      <div class="project-visual pv-sehat" style="padding:0; overflow:hidden; position:relative; border-radius:2px;">
+        <iframe
+          src="https://rudi-rock.github.io/Sehat/"
+          title="Sehat — Digital Health Identity"
+          style="width:160%; height:160%; border:none; transform:scale(0.625); transform-origin:top left; pointer-events:none; display:block;"
+          loading="lazy"
+          scrolling="no"
+        ></iframe>
+        <div style="position:absolute; inset:0; background: linear-gradient(to bottom, transparent 60%, rgba(8,8,8,0.85) 100%); pointer-events:none;"></div>
+        <div class="pv-label" style="z-index:2; position:absolute; bottom:16px; right:16px;">sehat · live</div>
+        <a href="https://rudi-rock.github.io/Sehat/" target="_blank" style="position:absolute; inset:0; z-index:3; display:flex; align-items:center; justify-content:center; opacity:0; transition:opacity 0.3s; background:rgba(0,0,0,0.4); text-decoration:none; color:#e8c547; font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.15em; text-transform:uppercase; gap:6px;" class="sehat-overlay-link">
+          Open Live Site
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
       </div>
+      <style>
+        .project-card.featured:hover .sehat-overlay-link { opacity: 1 !important; }
+      </style>
     </div>
 
     <!-- FlowX -->
