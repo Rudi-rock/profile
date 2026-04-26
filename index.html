@@ -954,17 +954,51 @@
           </a>
         </div>
       </div>
-      <div class="project-visual pv-sehat" style="padding:0; overflow:hidden; position:relative; border-radius:2px;">
-        <iframe
-          src="https://rudi-rock.github.io/Sehat/"
-          title="Sehat — Digital Health Identity"
-          style="width:160%; height:160%; border:none; transform:scale(0.625); transform-origin:top left; pointer-events:none; display:block;"
-          loading="lazy"
-          scrolling="no"
-        ></iframe>
-        <div style="position:absolute; inset:0; background: linear-gradient(to bottom, transparent 60%, rgba(8,8,8,0.85) 100%); pointer-events:none;"></div>
-        <div class="pv-label" style="z-index:2; position:absolute; bottom:16px; right:16px;">sehat · live</div>
-        <a href="https://rudi-rock.github.io/Sehat/" target="_blank" style="position:absolute; inset:0; z-index:3; display:flex; align-items:center; justify-content:center; opacity:0; transition:opacity 0.3s; background:rgba(0,0,0,0.4); text-decoration:none; color:#e8c547; font-family:'DM Mono',monospace; font-size:11px; letter-spacing:0.15em; text-transform:uppercase; gap:6px;" class="sehat-overlay-link">
+      <div style="position:relative; overflow:hidden; border:1px solid #1e2e22; background:#060e09; aspect-ratio:4/3; border-radius:2px; flex-shrink:0;">
+        <!-- Sehat Mockup -->
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 40%, #0a2818 0%, #060e09 70%);"></div>
+        <!-- Stars/dots -->
+        <div style="position:absolute;inset:0;background-image:radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px);background-size:28px 28px;opacity:0.3;"></div>
+        <!-- Nav bar -->
+        <div style="position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:10px 18px;border-bottom:1px solid rgba(255,255,255,0.05);z-index:2;">
+          <span style="font-family:'Syne',sans-serif;font-weight:800;font-size:13px;color:#2ecc71;letter-spacing:0.02em;">Sehat.</span>
+          <div style="display:flex;gap:12px;align-items:center;">
+            <span style="font-family:'DM Mono',monospace;font-size:8px;color:rgba(255,255,255,0.3);letter-spacing:0.1em;">Features</span>
+            <span style="font-family:'DM Mono',monospace;font-size:8px;color:rgba(255,255,255,0.3);letter-spacing:0.1em;">Register</span>
+            <span style="font-family:'DM Mono',monospace;font-size:8px;color:#2ecc71;letter-spacing:0.1em;border:1px solid #2ecc71;padding:3px 8px;">Scan</span>
+          </div>
+        </div>
+        <!-- Badge -->
+        <div style="position:absolute;top:46px;left:50%;transform:translateX(-50%);background:rgba(46,204,113,0.12);border:1px solid rgba(46,204,113,0.3);padding:4px 12px;border-radius:20px;white-space:nowrap;">
+          <span style="font-family:'DM Mono',monospace;font-size:8px;color:#2ecc71;letter-spacing:0.12em;">● BUILT FOR RURAL INDIA</span>
+        </div>
+        <!-- Hero text -->
+        <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-54%);text-align:center;width:90%;z-index:2;">
+          <div style="font-family:'Syne',sans-serif;font-weight:800;font-size:28px;line-height:1.05;color:#f0ece4;letter-spacing:-0.02em;margin-bottom:4px;">Health.</div>
+          <div style="font-family:'Syne',sans-serif;font-weight:800;font-size:28px;line-height:1.05;color:#2ecc71;letter-spacing:-0.02em;margin-bottom:12px;font-style:italic;">Everywhere.</div>
+          <div style="font-family:'DM Mono',monospace;font-size:8px;color:rgba(240,236,228,0.5);line-height:1.6;letter-spacing:0.05em;">One QR code. A lifetime of medical identity.<br>Works offline. Anywhere in India.</div>
+        </div>
+        <!-- Stat pills row -->
+        <div style="position:absolute;bottom:32px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:2;white-space:nowrap;">
+          <div style="background:rgba(46,204,113,0.08);border:1px solid rgba(46,204,113,0.2);padding:5px 10px;text-align:center;">
+            <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:12px;color:#2ecc71;">650K+</div>
+            <div style="font-family:'DM Mono',monospace;font-size:7px;color:rgba(255,255,255,0.35);letter-spacing:0.08em;">Villages</div>
+          </div>
+          <div style="background:rgba(46,204,113,0.08);border:1px solid rgba(46,204,113,0.2);padding:5px 10px;text-align:center;">
+            <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:12px;color:#2ecc71;">1 QR</div>
+            <div style="font-family:'DM Mono',monospace;font-size:7px;color:rgba(255,255,255,0.35);letter-spacing:0.08em;">Lifelong ID</div>
+          </div>
+          <div style="background:rgba(46,204,113,0.08);border:1px solid rgba(46,204,113,0.2);padding:5px 10px;text-align:center;">
+            <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:12px;color:#2ecc71;">0₹</div>
+            <div style="font-family:'DM Mono',monospace;font-size:7px;color:rgba(255,255,255,0.35);letter-spacing:0.08em;">To Patient</div>
+          </div>
+        </div>
+        <!-- Bottom gradient -->
+        <div style="position:absolute;inset:0;background:linear-gradient(to bottom, transparent 55%, rgba(6,14,9,0.9) 100%);pointer-events:none;"></div>
+        <!-- Live label -->
+        <div style="position:absolute;bottom:10px;right:14px;font-family:'DM Mono',monospace;font-size:9px;letter-spacing:0.15em;color:rgba(255,255,255,0.25);text-transform:uppercase;z-index:3;">sehat · live</div>
+        <!-- Hover overlay -->
+        <a href="https://rudi-rock.github.io/Sehat/" target="_blank" class="sehat-overlay-link" style="position:absolute;inset:0;z-index:4;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.3s;background:rgba(0,0,0,0.55);text-decoration:none;color:#e8c547;font-family:'DM Mono',monospace;font-size:11px;letter-spacing:0.15em;text-transform:uppercase;gap:6px;">
           Open Live Site
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
         </a>
